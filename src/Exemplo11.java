@@ -4,8 +4,8 @@ edições de um único caractere (inserções, exclusões ou substituições)
 necessárias para mudar uma palavra para outra.*/
 public class Exemplo11 {
     public static void main(String[] args){
-        String palavra_1 = "Delicia";
-        String palavra_2 = "Leticia";
+        String palavra_1 = "Marcos";
+        String palavra_2 = "arco";
         int distancia = calcularDistanciaLevenshtein(palavra_1, palavra_2);
         System.out.println("Distância de Levenshtein entre \"" + palavra_1 + "\" e \"" + palavra_2 + "\": " + distancia);
     }
